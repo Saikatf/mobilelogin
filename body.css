@@ -1,0 +1,27 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+    background-image: url(dark-cave.jpg);
+    background-size: cover;
+}
+
+html{
+    font-size: 10px;
+}
+
+@media(max-width:500px){
+    .picture{
+        display: none;
+    }
+
+    html{font-size: 12px;
+    }
+
+    .second-cage{
+        justify-content: center;
+        padding: 1.5rem;
+        
+    }
+}
